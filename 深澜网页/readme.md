@@ -17,3 +17,5 @@ iptables -t mangle -A PREROUTING -i br-lan -j TTL --ttl-set 64 //修改 LAN 口 
 ```
 至此，大部分工作已经完成，
 下面你需要连接好路由和主机，并在路由下的任意一台主机上进行认证，认证后该路由下所有设备均可上网。
+
+## 多端口复用：
